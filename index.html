@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Epicode - Il blog dei Developers</title>
+    <style>
+      table {
+        width: 33%;
+        border: 2px solid black;
+      }
+      th {
+        border: 2px solid black;
+      }
+      tr {
+        border: 2px solid black;
+      }
+      td {
+        border: 2px solid black;
+      }
+    </style>
   </head>
 
   <body>
@@ -83,18 +98,22 @@
           </strong>
         </p>
 
-        <table width="100%">
+        <table>
           <section><strong>Diffusione del CSS</strong></section>
-          <tr>
-            <th>Anno</th>
-            <th>% di utilizzo</th>
-            <th>Supporto Browser</th>
-          </tr>
-          <tr>
-            <td>2000</td>
-            <td>20%</td>
-            <td>17%</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Anno</th>
+              <th>% di utilizzo</th>
+              <th>Supporto Browser</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2000</td>
+              <td>20%</td>
+              <td>17%</td>
+            </tr>
+          </tbody>
           <tr>
             <td>2002</td>
             <td>35%</td>
@@ -116,7 +135,71 @@
             <td>76%</td>
           </tr>
         </table>
+        <p>
+          Un test di valutazione potrà essere fatto tramite il tool online
+          <a href="https://onecompiler.com/" target="_blank">Cliccami!</a>
+          dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto
+          il nostro obbiettivo ed essere stati dei veri e propri Developers come
+          loro:
+          <a href="https://epicode.com/en/we-are-epicode/" target="_blank"
+            >EPICODERS!</a
+          >
+        </p>
+        <iframe
+          width="100%"
+          height="500"
+          src="https://www.youtube.com/embed/sOnsyLAXfSI?si=k58BjGXljIDJBZVC"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <p>
+          Vuoi rimanere aggioranto su altre novità del blog?
+          <strong>Iscriviti alla nostra newsletter!</strong>
+        </p>
+        <fieldset>
+          <legend>Forniscici la tua E-mail!</legend>
+          <input type="text" placeholder="La tua e-mail" />
+          <button>Invia</button>
+        </fieldset>
+        <div>
+          <h3 id="articles">Articoli correlati</h3>
+          <a href="gestionedeglierrori.html" target="_blank"
+            >Correggere la sintassi</a
+          >
+          <p><em>Categoria: develop</em></p>
+          <p>Data: 16/09/2020</p>
+          <br />
+          <a
+            href="https://www.html.it/faq/come-faccio-a-validare-il-codice-html/"
+            target="_blank"
+          >
+            Validare il codice HTML
+          </a>
+          <p><em>Categoria: develop</em></p>
+          <p>Data: 18/09/2020</p>
+          <br />
+          <a
+            href="https://www.html.it/articoli/il-giusto-peso-delle-pagine/"
+            target="_blank"
+            >Meno KB nelle pagine</a
+          >
+          <p><em>Categoria: ottimizzazione</em></p>
+          <p>Data: 30/09/2020</p>
+        </div>
       </section>
     </main>
+    <footer>
+      <p>Blog Epicode &copy;2023</p>
+      <p>
+        Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
+        Luigi Einaudi 2 - Milano. P.IVA 00112233.
+      </p>
+      <a id="workwithus" href="info@epicode.school" target="_blank"
+        >info@epicode.school</a
+      >
+    </footer>
   </body>
 </html>
